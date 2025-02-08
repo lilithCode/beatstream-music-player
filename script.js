@@ -1,4 +1,3 @@
-
 let currentFolder = "TaylorSwift";
 let FoldersNames = ["TaylorSwift", "CokeStudio"];
 let songs = [];
@@ -230,6 +229,28 @@ function initializeAudio() {
   document.querySelector(".closeButton").addEventListener("click", () => {
     document.querySelector(".sidebar").style.left = "-100%";
   });
+
+  let checkVolume = true;
+
+  function addVolumeEventListeners() {
+    document.querySelector(".volume").addEventListener("click", () => {
+      if (checkVolume == false) {
+        document.querySelector(".volume").src = "svg and img/volume.svg";
+        currentAudio.volume = 1;
+        checkVolume = true;
+        return;
+      }
+      document.querySelector(".volume").src = "svg and img/volumeMute.svg";
+      currentAudio.volume = 0;
+      checkVolume = false;
+    });
+
+    document.querySelector(".durationVolume").getElementsByTagName("input")[0].addEventListener("change", (e) => {
+      currentAudio.volume = e.target.value / 100;
+    });
+  }
+
+  addVolumeEventListeners();
 }
 
 function handleSongEnd() {
