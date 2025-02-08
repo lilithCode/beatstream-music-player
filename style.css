@@ -181,6 +181,7 @@ input:focus {
     border-radius: 10px;
     color: white;
     overflow-y: auto;
+    height: 65vh;
 }
 
 .content::-webkit-scrollbar,
