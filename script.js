@@ -1,3 +1,4 @@
+
 let currentFolder = "TaylorSwift";
 let FoldersNames = ["TaylorSwift", "CokeStudio"];
 let songs = [];
