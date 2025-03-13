@@ -1,0 +1,56 @@
+{
+  "songs": {
+    "Taylor Swift": [
+      {
+        "title": "Illicit Affairs - Taylor Swift",
+        "url": "/public/songs/TaylorSwift/Illicit Affairs - Taylor Swift.mp3"
+      },
+      {
+        "title": "Love Story - Taylor Swift",
+        "url": "/public/songs/TaylorSwift/Love Story - Taylor Swift.mp3"
+      },
+      {
+        "title": "Mad Woman - Taylor Swift",
+        "url": "/public/songs/TaylorSwift/Mad Woman - Taylor Swift.mp3"
+      },
+      {
+        "title": "The Way I Loved You - Taylor Swift",
+        "url": "/public/songs/TaylorSwift/The Way I Loved You - Taylor Swift.mp3"
+      },
+      {
+        "title": "This is me trying - Taylor Swift",
+        "url": "/public/songs/TaylorSwift/This is me trying - Taylor Swift.mp3"
+      },
+      {
+        "title": "You Belong To Me - Taylor Swift",
+        "url": "/public/songs/TaylorSwift/You Belong To me - Taylor Swift.mp3"
+      }
+    ],
+    "Coke Studio": [
+      {
+        "title": "Bewajah - Nabeel Shauqat Ali",
+        "url": "/public/songs/CokeStudio/Bewajah - Nabeel Shauqat Ali.mp3"
+      },
+      {
+        "title": "Paar Chanaa De - Shilpa Rao & Noori",
+        "url": "/public/songs/CokeStudio/Paar Chanaa De - Shilpa Rao & Noori.mp3"
+      },
+      {
+        "title": "Sammi Meri Waar - Quratulain Baloch & Umair Jaswal",
+        "url": "/public/songs/CokeStudio/Sammi Meri Waar - Quratulain Baloch & Umair Jaswal.mp3"
+      },
+      {
+        "title": "Sayon - Meekal Hasan Band",
+        "url": "/public/songs/CokeStudio/Sayon - Meekal Hasan Band.mp3"
+      },
+      {
+        "title": "Tera Woh Pyar - Nawaazishen Karam - Momina Mustehsan & Asim Azhar",
+        "url": "/public/songs/CokeStudio/Tera Woh Pyar - Nawaazishen Karam - Momina Mustehsan & Asim Azhar.mp3"
+      },
+      {
+        "title": "Umran Langiyaan - Ali Sethi & Nabeel Shaukat",
+        "url": "/public/songs/CokeStudio/Umran Langiyaan - Ali Sethi & Nabeel Shaukat.mp3"
+      }
+    ]
+  }
+}

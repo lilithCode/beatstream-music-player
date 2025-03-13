@@ -21,106 +21,7 @@ html {
     padding: 10px;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    padding: 10px;
-}
 
-.navhome {
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    height: 50px;
-    justify-items: center;
-    align-items: center;
-}
-
-.homeButton {
-    column-gap: 10px;
-    padding: 10px;
-    background-color: rgb(40, 40, 40);
-    border-radius: 50px;
-}
-
-.search {
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    padding: 10px;
-    background-color: rgb(40, 40, 40);
-    border-radius: 50px;
-}
-
-input {
-    width: 300px;
-    background-color: rgb(40, 40, 40);
-    border: none;
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-}
-
-input::placeholder {
-    color: grey;
-    font-weight: 600;
-    padding: 0px;
-}
-
-input:focus {
-    outline: none;
-    border: none;
-}
-
-.nav-links {
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    padding: 10px;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-
-}
-
-.nav-links>a {
-    margin-left: 10px;
-    font-weight: 600;
-    word-spacing: 2px;
-    background-color: transparent;
-    text-decoration: none;
-    color: grey;
-}
-
-.nav-links>a:hover {
-    color: white;
-    cursor: pointer;
-}
-
-.sign-up,
-.log-in {
-    display: flex;
-    flex-direction: row;
-    column-gap: 10px;
-    padding: 10px;
-    font-weight: 600;
-    color: grey;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    border: none;
-    width: 7rem;
-}
-
-.log-in {
-    background-color: rgb(255, 255, 255);
-    color: black;
-    border-radius: 50px;
-}
 
 .sidebar {
     position: relative;
@@ -132,6 +33,7 @@ input:focus {
     background-color: rgb(26, 25, 25);
     border-radius: 10px;
     height: 100%;
+    width: 40vw;
     overflow-y: hidden;
 }
 
@@ -147,28 +49,7 @@ input:focus {
     background-color: transparent;
 }
 
-.footer-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(26, 25, 25);
-    width: 100%;
-    gap: 10px;
-    position: absolute;
-    bottom: 108px;
-    padding: 10px;
-    padding-right: 0;
-    margin-top: auto;
-}
 
-.footer-content>a {
-    background-color: rgb(26, 25, 25);
-    text-decoration: none;
-    color: grey;
-    font-size: 12px;
-}
 
 .content {
 
@@ -181,7 +62,7 @@ input:focus {
     border-radius: 10px;
     color: white;
     overflow-y: auto;
-    height: 65vh;
+    height: 88vh;
 }
 
 .content::-webkit-scrollbar,
@@ -244,20 +125,6 @@ input:focus {
     cursor: pointer;
 }
 
-.nav-link:hover,
-.sign-up:hover {
-    color: white;
-    cursor: pointer;
-    transform: scale(1.1);
-}
-
-.nav-link:hover svg {
-    fill: white !important;
-}
-
-.nav-link:hover span {
-    color: white !important;
-}
 
 
 #songList {
@@ -269,7 +136,8 @@ input:focus {
     color: white;
     align-items: center;
     overflow-y: scroll;
-    max-height: 400px;
+    height: 100%;
+   
 }
 
 #songList::-webkit-scrollbar {
@@ -279,7 +147,7 @@ input:focus {
 .song {
     border-radius: 10px;
     background-color: black;
-    max-height: 50px;
+    max-height: 70px;
     width: 100%;
     margin-bottom: 5px;
     display: flex;
@@ -458,7 +326,7 @@ input:focus {
 
 @media (max-width: 1200px) {
 
-    /*make a hambuher menu of sidebar*/
+   
     .hamburger {
         display: flex;
         flex-direction: column;
@@ -502,65 +370,19 @@ input:focus {
 
 @media (max-width: 1200px) {
 
-    /*remove the search bar*/
+   
     .search {
         display: none;
     }
 
 }
 
-@media (max-width: 808px) {
-
-    /*remove the premium support download bar*/
-    .nav-links>a:nth-child(3),
-    .nav-links>a:nth-child(2),
-    .nav-links>a:nth-child(1) {
-        display: none;
-    }
-
-    .nav {
-        padding: 5px;
-    }
-
-    .navhome {
-        column-gap: 5px;
-    }
-
-    .nav-links {
-        padding: 5px;
-        column-gap: 5px;
-    }
-}
 
 
 @media screen and (max-width: 515px) {
     .ControlButtons {
         width: 34px;
     }
-
-
-    .nav-link span {
-        display: none;
-    }
-
-    .nav-links {
-        column-gap: 5px;
-    }
-
-    .nav-links>a {
-        font-size: 12px;
-    }
-
-    .sign-up,
-    .log-in {
-        font-size: 14px;
-        width: 5rem;
-    }
-
-    .sidebar {
-        left: -350%;
-    }
-
     .playlist {
         justify-content: center;
         align-items: center;
