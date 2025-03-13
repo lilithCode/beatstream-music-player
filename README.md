@@ -1,7 +1,6 @@
 # Beat Stream 🎵
 
-This project aims to replicate the core features of Spotify, including music playback and playlist management.
-
+Beat Stream is a web-based music player, built with HTML, CSS, and JavaScriptthat. It dynamically fetches and plays songs from a structured JSON file. It supports categorized playlists, providing a seamless audio streaming experience. 
 ## Features 
 - Play, pause, and skip tracks
 - Create and manage playlists
